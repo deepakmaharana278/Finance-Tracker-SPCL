@@ -8,4 +8,6 @@ router.register(r'transactions', TransactionViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('summary/', summary, name='summary'),
+    path('monthly/', monthly_breakdown, name='monthly'),
 ]
