@@ -121,8 +121,7 @@ export default function Dashboard() {
             onClick={() => navigate("/transactions")}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition-all shadow-lg shadow-blue-500/30"
           >
-            <i className="fas fa-plus text-sm"></i>
-            Add Transaction
+            All Transaction
           </button>
         </div>
 
